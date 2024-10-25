@@ -613,3 +613,7 @@ else
 	end
 	net.Receive("acf_smokewind", recvSmokeWind)
 end
+
+if SERVER then
+	resource.AddWorkshop("3354491877")
+end
